@@ -5,7 +5,7 @@ import RightBar from "@/components/RightBar";
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Lama Dev X Clone',
+  title: 'YifanSHI X Clone',
   description: 'Next.js social media application project',
 }
 
