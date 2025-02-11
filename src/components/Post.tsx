@@ -14,24 +14,11 @@ interface FileDetailsResponse {
   customMetadata?: { sensitive: boolean };
 }
 
-const Post = async ({ type }: { type?: "status" | "comment" }) => {
- 
-  // FETCH POST MEDIA
-
-  // const getFileDetails = async (
-  //   fileId: string
-  // ): Promise<FileDetailsResponse> => {
-  //   return new Promise((resolve, reject) => {
-  //     imagekit.getFileDetails(fileId, function (error, result) {
-  //       if (error) reject(error);
-  //       else resolve(result as FileDetailsResponse);
-  //     });
-  //   });
-  // };
-
-  // const fileDetails = await getFileDetails("675d943be375273f6003858f");
-
-  // console.log(fileDetails);
+const Post = ({
+  type,
+}: {
+  type?: "status" | "comment";
+}) => {
 
   return (
     <div className="p-4 border-y-[1px] border-borderGray">
